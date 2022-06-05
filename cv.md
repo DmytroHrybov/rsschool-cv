@@ -15,9 +15,9 @@
 ## Skills
 
 ... yet to be achieved but as for now I'm **learning**:
-1. HTML;  
-2. CSS;
-3. JavaScript.
+**1.** HTML;  
+**2.** CSS;
+**3.** JavaScript.
 
 ## Code example
 > function sum (a, b) {  
@@ -30,7 +30,7 @@
 
 ## Education
 
-__National University 'Yaroslav the Wise Law Academy of Ukraine'__ *but does it really metter in my case?*
+__National University 'Yaroslav the Wise Law Academy of Ukraine'__ *but does it really matter?*
 
 ## Additional information
 
