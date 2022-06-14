@@ -1,1 +1,119 @@
+:root {
+    --bgcolor: #d3d3d3;
+}
 
+h1 {
+    
+    font-size: 36px;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color: #00008b;
+    text-decoration-style: solid;
+    text-underline-offset: 20px;
+}
+
+h2 {
+    background-color: rgba(128, 96, 96, 0.589);
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:var(--bgcolor);
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+header {
+    background-color:#f0ffff;
+    min-width: 510px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.nav_list > li {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.nav_list > li:hover {
+    background-color:var(--bgcolor);
+}
+
+.container {
+    display: flex;
+    min-width: 510px;
+}
+
+.container_photo {
+    width: 30%;
+    background-color:#f0ffff;
+}
+
+.container_general {
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_bio {
+    width: 30%;
+    background-color:#f0ffff;
+}
+
+.container_prof {
+    width:70%;
+}
+
+
+footer {
+    display: flex;
+    background-color: #a9a9a9;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    min-width: 510px;
+}
+
+.profile_photo {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 5% auto 0;
+}
+
+.github_logo {
+    width: 100%;
+    height: auto;
+    max-width: 15px;
+    max-height: auto;
+}
+
+.rsschool_logo {
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+    max-height: auto;
+}
